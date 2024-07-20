@@ -10,6 +10,10 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
+            Cat cat = new Cat("Мурка");
+            cat.ShowInfo();
+            Dog dog = new Dog("Купер");
+            dog.ShowInfo();
         }
     }
 }
